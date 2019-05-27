@@ -1,48 +1,25 @@
-
-div class="comments">
-<link rel="stylesheet" href"form.css"type="text/css"
-   <h2>Leave a comment</h2>
-
-   <form class="comments__form">
-     <div class="comments__form-info">
-
-       <div class="comments__form-field">
-         <input id="comments__form-label-name" name="author" placeholder="Name" type="text" class="comments__form-input">
-         <label class="comments__form-label" for="comments__form-label-name">
-           <span class="comments__form-label-text">Name</span>
-         </label>
-       </div>
-
-       <div class="comments__form-field">
-         <input id="comments__form-label-mail" name="author" placeholder="E-mail" type="text" class="comments__form-input">
-         <label class="comments__form-label" for="comments__form-label-mail">
-           <span class="comments__form-label-text">E-mail</span>
-         </label>
-       </div>
-
-       <div class="comments__form-field">
-         <input id="comments__form-label-site" name="author" placeholder="Website" type="text" class="comments__form-input">
-         <label class="comments__form-label" for="comments__form-label-site">
-           <span class="comments__form-label-text">Website</span>
-         </label>
-       </div>
-
-     </div>
-
-     <div class="comments__form-text">
-
-       <div class="comments__form-field">
-         <textarea id="comments__form-label-text" name="author" placeholder="Express your thoughts" type="text" class="comments__form-input comments__form-textarea"></textarea>
-         <label class="comments__form-label" for="comments__form-label-text">
-           <span class="comments__form-label-text">Express your thoughts</span>
-         </label>
-       </div>
-
-     </div>
- <input name="submit" type="submit" id="submit" class="comments__form-submit" value="Post Comment">
-   </form>
-
-   <div class="comments__list">
-     <!-- Comments -->
-   </div>
- </div>
+<html>
+<div id="main-form">
+  <div id="form-div">
+    <form id="form-one" class="form">
+      <h1>HELLO</h1>
+      <p class="name">
+        <input name="name" type="text"       class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="My name is" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="My email is" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="My message is"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="Go" id="button-bottom"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+  </html>
