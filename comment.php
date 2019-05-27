@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./css/comment.css" type="text/css">
 <html>
 <div id="main-form">
   <div id="form-div">
