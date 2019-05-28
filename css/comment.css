@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #1f2682;
+    background: #000000;
     color: #999;
     line-height: 1.6;
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,7 +31,7 @@ ul {
 }
 
 .brand span {
-    color: #e83890;
+    color: #68f733;
 }
 
 .wrapper {
@@ -43,7 +43,7 @@ ul {
 }
 
 .company-info {
-    background: #e83890;
+    background: #686667;
 }
 
 .company-info h3, .company-info ul {
@@ -88,8 +88,8 @@ ul {
 }
 
 .button {
-    background: #e83890;
-    color: #fafafa;
+    background: #89fff9;
+    color: #000000;
     border: 0;
     font-family: 'Raleway';
     font-size: 1.2rem;
