@@ -3,16 +3,26 @@
   <link rel="stylesheet" href="./css/comment.css" type="text/css">
 </head>
 <body>
-<div class="formbox">  
-<form id="contactform" method="POST">
-    <input type="text" placeholder="Your name">
-    <input type="email" placeholder="Your email">
-    <input type="hidden" name="_subject" value="Website contact" />
-    <textarea name="message" placeholder="Your message"></textarea>
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" value="Send">
-</form>
+<div class="proposals">
+  <h2>Seriously, get in touch.</h2>
+  <p>I am on the lookout for any kind of meaningful work. If you have something in mind or just want to say hi, drop me a line.</p>
+  <form class="formSpree" action="https://formspree.io/luxbicorp@gmail" method="POST">
+    <div class="split">
+      <div>
+        <label>Your name</label>
+        <input type="text" name="Name" placeholder="John Doe" required>
+      </div>
+      <div>
+        <label>Your email</label>
+        <input type="email" name="_replyto" placeholder="Example@domain.com" required>
+      </div>
+    </div>
+    <label>Message</label>
+    <textarea class="message" type="text" name="Message" placeholder="Hi Mindaugas.." required></textarea>
+    <button type="submit" value="Send">Send</button>
+    <input class="is-hidden" type="text" name="_gotcha">
+    <input type="hidden" name="_next" value="#" />
+  </form>
 </div>
-  <script src="js/comment.js"></script>
 </body>
   </html>
