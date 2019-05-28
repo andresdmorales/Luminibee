@@ -3,26 +3,20 @@
   <link rel="stylesheet" href="./css/comment.css" type="text/css">
 </head>
 <body>
-<div class="proposals">
-  <h2>Seriously, get in touch.</h2>
-  <p>I am on the lookout for any kind of meaningful work. If you have something in mind or just want to say hi, drop me a line.</p>
-  <form class="formSpree" action="https://formspree.io/luxbicorp@gmail" method="POST">
-    <div class="split">
-      <div>
-        <label>Your name</label>
-        <input type="text" name="Name" placeholder="John Doe" required>
-      </div>
-      <div>
-        <label>Your email</label>
-        <input type="email" name="_replyto" placeholder="Example@domain.com" required>
-      </div>
-    </div>
-    <label>Message</label>
-    <textarea class="message" type="text" name="Message" placeholder="Hi Mindaugas.." required></textarea>
-    <button type="submit" value="Send">Send</button>
-    <input class="is-hidden" type="text" name="_gotcha">
-    <input type="hidden" name="_next" value="#" />
-  </form>
-</div>
+<form action="https://formspree.io/luxbicorp@gmail.com"
+    method="POST">
+    
+    <label for="fullname">Full Name</label>
+    <input class="inputfield" type="text" name="name" class="name">
+	
+	<label for="fullname">Comment</label>
+    <input class="inputfield" type="text" name="name" class="name">
+
+    <label for="email">Email Adress</label>
+    <input class="inputfield" type="email" name="email">
+  
+    <input class="button" type="submit" value="Send">
+
+</form> 
 </body>
   </html>

@@ -1,56 +1,80 @@
+{ 
+  box-sizing: border-box; 
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Centering items, font + background */
 body {
-  font-family: "Open Sans", Helvetica Neue, Arial, sans-serif;
-  background: #e74c3c;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  background: #f2f2f2;
 }
-.proposals {
-  background: #ecf0f1;
+
+/* Label */
+label {
+  display: block;
+  text-align: start;
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* Form */
+form {
+  width: 450px;
+  background:#131313;
+  border-radius: 17px;
   padding: 20px;
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
-  .split {
-    display: grid;
-    grid-template-columns: repeat(2, 47.5%);
-    grid-template-rows: repeat(1, 100%);
-    grid-gap: 0 5%;
-  }
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.formSpree {
-  text-align: initial;
-  margin: 0 auto;
-  padding: 0 0.5em;
-  label {
-    font-size: 0.8em;
-    font-weight: 600;
-  }
-  input,
-  .message {
-    // height: 1.75em;
-    padding: 0.45em 0.5em;
-    margin: 0.3em 0;
-    border: 0;
-    min-width: 100%;
-  }
-  .message {
-    min-height: 10rem;
-    padding-top: 0.3em;
-    margin-bottom: -4px;
-  }
-  .is-hidden {
-    display: none;
-  }
-  button {
-    width: calc(100% + 1em);
-    text-align: center;
-    padding: 0.35em;
-    background: #6dcd9a;
-    color: #ecf0f1;
-    border: 0;
-    font-weight: 400;
-  }
+
+/* Input */
+.inputfield {
+  font-size: 1.1em;
+  font-weight: bold;
+  display: block;
+  height: 44px;
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  transition: all 1s;
+  border: 3px solid rgba(102,51,153,0);
+  background: #212121;
+  color: white; 
+  margin: 1em 0 2em 0;
+  padding: 2em;
 }
-@media screen and (max-width: 620px) {
-  .proposals .split {
-    grid-template-columns: repeat(1, 100%);
-  }
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border: 3px solid white;
+}
+
+/* Button */
+.button {
+  border: none;
+  height: 50px;
+  width: 100%;
+  border-radius: 0.3em;
+  font-size: 25px;
+  font-weight: 600;
+  /* Colors */
+  color: white;
+  background:#212121;
+  /* To get the hover animation to work */
+  transition: transform .5s;
+}
+
+.button:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: #212121;
 }
