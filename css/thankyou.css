@@ -5,7 +5,7 @@
  /* outline:1px solid ;*/
 }
 body{
-        background: rgb(0,0,0);
+        background: rgb(255, 255, 255);
         height: 100%;
         margin: 0;
         background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body{
 
 }
 a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   transition: all 0.30s linear 0s;
 }
@@ -33,7 +33,7 @@ h1{
   font-size:4em;
   font-weight: 900;
   letter-spacing:3px;
-  color: #44fffb;
+  color: #000000;
   margin:0;
   margin-top: 40px;
   margin-bottom:40px;
@@ -41,13 +41,13 @@ h1{
 .wrapper-2 p{
   margin:0;
   font-size:1.3em;
-  color:#fafafa;
+  color:#000000;
   font-family: 'Raleway', sans-serif;
   letter-spacing:1px;
   line-height: 1.5;
 }
 .go-home{
-  background: #e83890;
+  background: #b4ff9e;
   border:none;
   padding: 25px 30px;
   margin: 30px 0;
@@ -67,7 +67,7 @@ h1{
 }
 .footer-like{
   margin-top: auto;
-  background: rgb(31,38,130);
+  background: rgb(255, 255, 255);
   padding:6px;
   text-align:center;
 }
@@ -80,7 +80,7 @@ h1{
 }
 .footer-like p a{
   text-decoration:none;
-  color:#5892FF;
+  color:#ffffff;
   font-weight: 600;
 }
 
