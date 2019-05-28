@@ -5,7 +5,7 @@
  /* outline:1px solid ;*/
 }
 body{
-        background: rgb(31,38,130);
+        background: rgb(0,0,0);
         height: 100%;
         margin: 0;
         background-repeat: no-repeat;
@@ -33,7 +33,7 @@ h1{
   font-size:4em;
   font-weight: 900;
   letter-spacing:3px;
-  color: #fafafa;
+  color: #44fffb;
   margin:0;
   margin-top: 40px;
   margin-bottom:40px;
