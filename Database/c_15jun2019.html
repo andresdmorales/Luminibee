@@ -45,14 +45,21 @@
 
 						<!-- nav -->
 						<ul class="nav-menu nav navbar-nav">
-							<li class="cat-1"><a href="category.html">Biology and Health</a></li>
-							<li class="cat-2"><a href="technology.html">Technology</a></li>
-							<li class="cat-3"><a href="category.html">Chem and Physics</a></li>
-							<li class="cat-4"><a href="category.html">General</a></li>
+							<li class="cat-1"><a href="bioandhealth.html">Biology and Health</a></li>
+							<li class="cat-2"><a href="tech.html">Technology</a></li>
+							<li class="cat-3"><a href="chemandphys.html">Chem and Physics</a></li>
+							<li class="cat-4"><a href="gen.html">General</a></li>
 						</ul>
 						<!-- /nav -->
 
 						<!-- search & aside toggle -->
+						<div class="nav-btns">
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+							<div class="search-form">
+								<input class="search-input" type="text" name="search" placeholder="Enter Your Search ...">
+								<button class="search-close"><i class="fa fa-times"></i></button>
+							</div>
+						</div>
 						<!-- /search & aside toggle -->
 					</div>
 				</div>
@@ -65,22 +72,22 @@
 						<ul class="nav-aside-menu">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About Us</a></li>
+							<li><a href="#">Join Us</a></li>
+							<li><a href="contact.html">Contacts</a></li>
 						</ul>
 					</div>
 					<!-- /nav -->
-
 					<!-- social links -->
 					<div class="section-row">
 						<h3>Follow us</h3>
 						<ul class="nav-aside-social">
-							<li><a href="https://twitter.com/LuxbiC"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.instagram.com/luxbi_inc"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="https://www.linkedin.com/company/luxbi"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="mailto:info@luxbi.ml"><i class="fa fa-envelope"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 						</ul>
 					</div>
 					<!-- /social links -->
-
 					<!-- aside nav close -->
 					<button class="nav-aside-close"><i class="fa fa-times"></i></button>
 					<!-- /aside nav close -->
@@ -90,15 +97,16 @@
 			<!-- /Nav -->
 
 			<!-- Page Header -->
-			<div class="page-header">
+			<div id="post-header" class="page-header">
+				<div class="background-img" style="background-image: url('./img/about-2.jpg');"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10">
-							<ul class="page-header-breadcrumb">
-								<li><a href="index.html">Home</a></li>
-								<li>Technology</li>
-							</ul>
-							<h1>Technology</h1>
+							<div class="post-meta">
+								<a class="post-category cat-2" href="category.html">Technology</a>
+								<span class="post-date">June 11, 2019</span>
+							</div>
+							<h1>Luxbi: a data base for e-learning tools</h1>
 						</div>
 					</div>
 				</div>
@@ -112,37 +120,45 @@
 			<div class="container">
 				<!-- row -->
 				<div class="row">
+					<!-- Post content -->
 					<div class="col-md-8">
-						<div class="row">
-							<!-- post -->
-							<div class="col-md-12">
-								<div class="post post-row">
-									<a class="post-img" href="t_15jun2019.html"><img src="./img/post-1.jpg" alt=""></a>
-									<div class="post-body">
-										<div class="post-meta">
-											<a class="post-category cat-2" href="tech.html">Technology</a>
-											<span class="post-date">June 15, 2019</span>
-										</div>
-										<h3 class="post-title"><a href="t_15jun2019.html"></a>Luxbi: a data base for e-learning tools</h3>
-										<p>Luxbi, Inc. was launched as a non-profit for public benefit in June 2019. It hopes to collect e-resources currently used for research and learning in science and technology.....</p>
-									</div>
-								</div>
+						<div class="section-row sticky-container">
+							<div class="main-post">
+								<h3>Luxbi, Inc. collects and organizes e-learning resources for science and technology</h3>
+								<p> Nowadays, you can learn almost any science topic for free by getting on your favorite browser and typing your favorite topic.  Among the most popular and useful resources are: Khan academy,or open science courses at edX  and at MIT. The content of these platforms is highly respectable and their contributors have prestigious backgrounds, however their main goal is content creation. </p>
+								<p>Luxbi, Inc. was launched as a non-profit for public benefit in June 2019. It hopes to collect e-resources currently used for research and learning in science and technology. We are going have these tools available in an organized fashion. Each source will have a general description of its content and it will be categorized. Additionally, it will have tags that will make the content search more specific. </p>
+
+								<figure class="figure-img">
+									<img class="img-responsive" src="./img/post-1.jpg" alt="">
+									<figcaption>Luxbi, Inc Website Welcome Background</figcaption>
+								</figure>
+								<h3>Did you know you can access the NASA open hardware that is used by NASA professionals for free?</h3>
+								<p>Nasa hardware and e-resources are available by typing “NASA open hardware”. Their website contains tools that are instructive and can be used to do research.</p>
+								<p> Technology makes its way up in big strikes. Each day, thousands of scholars, students, and professors access the internet with the hope of finding something to complement their learning, or help their research. Advances in technology make it possible to have open hardware available for free online. You can access these resources directly or just access it by registering.</p>
+								<p>We are located in the San Francisco bay area in California, however we have remote contributors from all over. Currently, we are looking for volunteers that have experience in science and technology and would like to share their favorite website or e-tool that they used for learning. You can e-mail us at info@luxbi.ml. </p>
 							</div>
-							<!-- /post -->
+							<div class="post-shares sticky-shares">
+								<a href="#" class="share-twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-envelope"></i></a>
+							</div>
 						</div>
 					</div>
+					<!-- /Post content -->
+
+					<!-- aside -->
 					<div class="col-md-4">
-						<!-- catagories -->
+						<!-- catagoriescontent -->
 						<div class="aside-widget">
 							<div class="section-title">
 								<h2>Catagories</h2>
 							</div>
 							<div class="category-widget">
 								<ul>
-									<li><a href="bioandhealth.html" class="cat-1">Biology and Health<span>0</span></a></li>
-									<li><a href="tech.html" class="cat-2">technology<span>1</span></a></li>
-									<li><a href="gen.html" class="cat-4">General<span>0</span></a></li>
-									<li><a href="chemandphys.html" class="cat-3">Chem and Physics<span>1</span></a></li>
+									<li><a href="#" class="cat-1">Health and Biology<span>0</span></a></li>
+									<li><a href="#" class="cat-2">Technology<span>1</span></a></li>
+									<li><a href="#" class="cat-3">Chem and Physics<span>0</span></a></li>
+									<li><a href="#" class="cat-4">General<span>0</span></a></li>
+
 								</ul>
 							</div>
 						</div>
@@ -152,13 +168,12 @@
 						<div class="aside-widget">
 							<div class="tags-widget">
 								<ul>
-									<li><a href="gen.html">About us</a></li>
-									<li><a href="tech.html">technology</a></li>
+									<li><a href="#">Technology</a></li>
+									<li><a href="#">About us</a></li>
 								</ul>
 							</div>
 						</div>
 						<!-- /tags -->
-
 						<!-- archive -->
 						<div class="aside-widget">
 							<div class="section-title">
@@ -172,13 +187,13 @@
 						</div>
 						<!-- /archive -->
 					</div>
+					<!-- /aside -->
 				</div>
 				<!-- /row -->
 			</div>
 			<!-- /container -->
 		</div>
 		<!-- /section -->
-
 		<!-- Footer -->
 		<footer id="footer">
 			<!-- container -->
@@ -195,10 +210,10 @@
 								<div class="footer-widget">
 									<h3 class="footer-title">Catagories</h3>
 									<ul class="footer-links">
-										<li><a href="bioandhealth.html">Biology and Health</a></li>
-										<li><a href="tech.html">Technology</a></li>
-										<li><a href="chenandphys.html">Chem and Physics</a></li>
-										<li><a href="gen.html">General</a></li>
+										<li><a href="category.html">Biology and Health</a></li>
+										<li><a href="category.html">Technology</a></li>
+										<li><a href="category.html">Chem and Physics</a></li>
+										<li><a href="category.html">General</a></li>
 									</ul>
 								</div>
 							</div>
@@ -207,7 +222,7 @@
 
 					<div class="col-md-3">
 						<div class="footer-widget">
-							<h3 class="footer-title">Subscribe for Updates</h3>
+							<h3 class="footer-title">Subscribe for updates</h3>
 							<div class="footer-newsletter">
 								<form>
 									<input class="input" type="email" name="newsletter" placeholder="Enter your email">
